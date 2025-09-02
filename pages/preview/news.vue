@@ -52,14 +52,14 @@ const { data: response } = await useFetch(
     params: {
       preview_token,
     },
-    server: false,
+
   }
 );
 const { data: newsConditionMaster } = await useFetch(
   `${config.public.kurocoApiDomain}/rcms-api/1/master`,
   {
     credentials: "include",
-    server: false,
+
   }
 );
 </script>
